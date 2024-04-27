@@ -1,0 +1,695 @@
+* {
+  font-family: 'Adamina', serif;
+}
+
+.bg-primary-color {
+  background-color: #370028;
+}
+
+.location-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #794980;
+  padding: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.location-name{
+  font-weight: bolder;
+}
+
+.location-content {
+  font-size: 18px;
+}
+
+.group-icon {
+  display: flex;
+  font-size: 1vw;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  margin-right: 1vw;
+}
+
+.bi-facebook {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.circle i {
+  background-color: white;
+  border-radius: 100%;
+  color: #794980;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.navbar-brand {
+  display: flex;
+  font-size: 14px;
+}
+
+.navbar-brand img{
+  margin-left: 10vw;
+}
+
+#navbarNav {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid white;
+}
+
+.fundo-servicos {
+  padding-top: 2vw;
+  background: #F4D6F5;
+  width: 100%;
+  height: 10%;
+}
+
+.nossos_servicos {
+  text-align: center;
+  font-size: 4vw;
+  padding-top: 3%;
+}
+
+.tamanho-img {
+  width: 15%;
+  margin: 2% auto;           /* Centraliza horizontalmente e adiciona espaçamento */
+  margin-top: 0;
+}
+
+.caixa {
+  border: 1px solid #370028;
+  border-radius: 5px;
+  padding: 10px;
+  width: 18%;
+  height: 20%;
+  margin: 0 auto; /*Centraliza horizontalmente */
+  white-space: nowrap;
+}
+
+.banner {
+  max-width: 100%;        /* Define a largura máxima do banner como 100% */
+  display: block;         /* Para remover o espaço extra abaixo da imagem */
+  margin: 0 auto;         /* Centraliza horizontalmente a imagem usando margens automáticas */
+}
+
+.container-servicos{
+  background-color: #370028;
+  max-width: 100%;
+  height: 30vw;
+  overflow-x: hidden; /* Esconde a barra de rolagem horizontal se a imagem ultrapassar o contêiner */
+  gap: 5vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-servicos{
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  border: 2.5px solid white;
+  overflow: hidden;
+}
+
+.circle-servicos img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Faz com que a imagem preencha todo o espaço do círculo */
+}
+
+.service-name{
+  color: white;
+  font-size: 1.80vw;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.service-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fundo-galeria {
+  padding-top: 3vw;
+  background: #F4D6F5;
+  width: 100%;
+  height: auto;
+}
+
+.size-exemple{
+  width: 20%;
+  border: 0.2vw solid #370028;
+  border-radius: 10px;
+}
+
+.exemple-row{
+  margin-top: 2vw;
+}
+
+.fundo-feedback{
+  padding-top: 4vw;
+  background: #F4D6F5;
+  width: 100%;
+  height: auto;
+}
+
+.card{
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 10vw;
+}
+
+.card-title{
+  text-align: center;
+  color: #370028;
+  font-size: 1.5vw;
+  padding-top: 1.5vw;
+}
+
+.star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisao-feedback{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5vw;
+}
+
+.card-text{
+  color:#370028;
+  font-size: 1.3vw;
+  padding: 1.5vw;
+  padding-bottom: 0;
+}
+
+.caixa-feedback {
+  border: 1px solid #370028;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+  height: 20%;
+  margin: 0 auto; /*Centraliza horizontalmente */
+  white-space: nowrap;
+}
+
+.container-feedback{
+  text-align: center;
+  font-size: 4vw;
+  padding-top: 3%;
+}
+.container-duvidas {
+  background: #794980;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duvidas {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 10vw;
+}
+
+.duvidas p {
+  font-size: 1.8vw;
+  color: #ffffff;
+  margin: 0;
+  padding: 5vw;
+  padding-left: 0;
+}
+
+.button-duvidas {
+  width: 15%;
+  height: auto;
+}
+
+.button-duvidas button {
+  color: #370028;
+  background-color: #F4D6F5;
+  width: 30vw;
+  height: 3vw;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centraliza o ícone verticalmente */
+  padding: 2vw;
+  box-shadow: 0 2px 10px 0 #370028; /*sombra*/
+  border: none;
+}
+
+.button-duvidas button i {
+  margin-left: 10px;
+}
+
+.button-duvidas button:hover{
+  background: #ffffff;
+}
+
+.zap-size {
+  font-size: 2vw;
+}
+
+.container-pink{
+  background: #F4D6F5;
+  width: 100%;
+  height: 8vw;
+}
+
+.rodape{
+  width: 100%;
+  background: #370028;
+  color: white;
+  padding: 3%;
+}
+
+.icon.text-footer i{
+  font-size: 0.8vw;
+  color: #370028;
+}
+
+.logo-rodape{
+  margin-left: 6vw;
+}
+
+.final{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final p{
+  margin-top: 2vw;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  font-size: 1vw;
+}
+
+.redes-sociais {
+  margin-left: 8vw;
+}
+
+.redes-sociais .bi {
+  font-size: 2vw;
+  color: #370028;
+}
+
+.redes-sociais .bi-facebook {
+  font-size: 2.5vw;
+  color: white;
+  position: relative;
+  top: -6px;
+}
+
+footer.rodape {
+  margin: 0;
+}
+
+.font-rodape h5{
+  font-size: 1vw;
+}
+
+.font-rodape{
+  font-size: 0.8vw;
+}
+
+
+/*PAGINA SOBRE NÓS*/
+
+.container-sobre-nos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-nos-fundo{
+  width: 60%;
+  height: auto;
+  background: #F0BDF2;
+  border-radius: 15px;
+  padding: 5vw;
+}
+
+.sobre-nos-fundo p{
+  font-size: 1.2vw;
+  color: #370028;
+}
+
+.container-tratamento-capilar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-tratamentoEx1{
+  width: 25vw;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px 0 #370028;
+}
+
+.text-tratamento-capilar{
+  width: 40%;
+}
+
+.text-tratamento-capilar p{
+  font-size: 1.5vw;
+  flex-wrap:wrap; /*quebra de linha responsiva*/
+  padding-right: 3vw;
+}
+
+.button-agendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vw;
+  padding-bottom: 5vw;
+}
+
+.button-agendar button{
+  width: 20%;
+  height: 20%;
+  white-space: nowrap; /*não deixa quebrar linha*/
+  padding: 0.5vw;
+  color:#ffffff;
+  background: #370028;
+  border-radius: 10px;
+  font-size: 1.2vw;
+}
+
+.button-agendar button:hover{
+  background:#6d0150;
+  color: #ffffff;
+}
+
+.fundo-topicos-tratamento{
+  background:#794980;
+  color: white;
+  overflow-x: hidden; /* Esconde a barra de rolagem horizontal se a imagem ultrapassar o contêiner */
+}
+
+.inicio-topico{
+  text-align: center;
+  padding-top: 2vw;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+}
+
+.container-topicos{
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  flex-direction: row;
+  
+}
+
+.caixa-topicos{
+  padding-top: 1vw;
+  width: 15vw;
+  height: 19vw;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 3vw;
+}
+
+.caixa-topicos h5{
+  padding-left: 1vw;
+  font-size: 1.3vw;
+}
+
+.caixa-topicos p{
+  padding-left: 10vw;
+  padding: 1vw;
+  font-size: 1vw;
+}
+
+.ok{
+  width: 1.8vw;
+  padding-right: 0.2vw;
+}
+
+.margin-right{
+  margin-right: 2vw;
+}
+
+.margin-left{
+  margin-left: 2vw;
+}
+
+.size-corte-feminino{
+  width: 10vw;
+}
+
+.container-cortes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.ex{
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.ex p{
+  padding-bottom: 1vw;
+}
+
+.fundo-center-along{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.circle-service-alongamento{
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  border: 2.5px solid white;
+  overflow: hidden;
+  margin-bottom: 5vw;
+}
+
+.circle-service-alongamento img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Faz com que a imagem preencha todo o espaço do círculo */
+}
+
+.text-alongamento{
+  width: 40%;
+}
+
+.text-alongamento p{
+  font-size: 1.5vw;
+  flex-wrap:wrap; /*quebra de linha responsiva*/
+  padding-left: 3vw;
+}
+
+.circle-service-maquiagem{
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  border: 2.5px solid white;
+  overflow: hidden;
+  margin-bottom: 5vw;
+}
+
+.circle-service-maquiagem img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Faz com que a imagem preencha todo o espaço do círculo */
+}
+
+.dropdown-menu{
+  list-style: none;
+  background: #F0BDF2;
+}
+
+.dropdown-menu a:active {
+  background: #794980;
+}
+
+.bi-mic-fill{
+  color: white;
+  font-size: 26px;
+  margin-right: 5vw;
+}
+
+.cartao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*CAIXA DE PRODUTOS*/
+.fundo-produtos-texto{
+  background-color:#F4D6F5;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;  
+}
+
+.fundo-produtos-texto p{
+  font-size: 1.2vw;
+  padding-top: 0;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 3vw;
+}
+
+.name-product h5{
+  font-size: 1.3vw ;
+  margin-left: 1vw;
+}
+
+.star-produto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-produto img{
+  width: 8vw;
+}
+
+.text-desconto{
+  padding-top:0.8vw;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.price-product{
+  text-align: center;
+}
+
+.price-product h5{
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.card-size{
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 10vw;
+}
+
+.fundo-produtos{
+  background: #F4D6F5;
+}
+
+.product-size-img img{
+  width: 400px;
+  border-radius: 10px;
+}
+
+.botao-comprar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.5vw;
+}
+
+.botao-comprar button{
+  background: #5FB143;
+  padding: 1vw;
+  width: 15vw;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 2px 5px 0 #000000; /*sombra*/
+}
+
+.botao-comprar button:hover{
+    background: #56ca30;
+}
+
+/* Estilos para o ícone de pesquisa */
+.bi-search {
+  font-size: 20px;
+}
+
+/* Estilos para o formulário */
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 0.3vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+.search-form form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.search-form button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.pesquisar-audio{
+  margin-right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse; 
+}
+
+.bi-mic-fill{
+  margin-top: 1vw;
+}
+
+.audio{
+  margin-top: 0.2vw;
+}

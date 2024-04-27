@@ -1,0 +1,181 @@
+@media screen and (max-width: 768px) {
+
+    .nossos_servicos h5 {
+        font-size: 3vw;
+    }
+
+    .nav-item {
+        font-size: 2.5vw;
+    }
+
+    .bi-geo-alt {
+        font-size: 14px;
+    }
+
+    .location-name {
+        font-size: 14px;
+        margin-right: 10vw;
+    }
+
+    .bi-facebook {
+        font-size: 18px;
+    }
+
+    .circle i {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .icon {
+        margin-right: 2vw;
+    }
+
+    .navbar-brand img {
+        width: 50%;
+        margin-left: 10vw;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 40%;
+    }
+
+    .nossos_servicos h5 {
+        font-size: 2vw;
+        padding: 2vw;
+        width: 25%;
+    }
+
+    .container-servicos {
+        background-color: #370028;
+        max-width: 100%;
+        height: 30vw;
+        overflow-x: hidden;
+        /* Esconde a barra de rolagem horizontal se a imagem ultrapassar o contêiner */
+    }
+
+    .circle-servicos {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1.75px solid white;
+        overflow: hidden;
+        margin-right: 5px;
+    }
+
+    .circle-servicos img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Faz com que a imagem preencha todo o espaço do círculo */
+    }
+
+    .circle-servicos {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .container-servicos {
+        flex-direction: row;
+        /* Muda para uma disposição vertical dos serviços */
+        height: auto;
+        /* A altura será determinada pelo conteúdo */
+    }
+
+    .service-name {
+        font-size: 2vw;
+        /* Reduz o tamanho do texto dos serviços */
+        padding-bottom: 2vw;
+    }
+
+    .circle-servicos {
+        margin-top: 3vw;
+        width: 15vw;
+        /* Reduz o tamanho do círculo */
+        height: 15vw;
+        margin-bottom: 1vw;
+        /* Adiciona um espaçamento entre os círculos */
+    }
+
+    .fundo-servicos.fundo-galeria {
+        height: auto;
+        /* Ajusta a altura das seções de título */
+    }
+
+    .nossos_servicos {
+        font-size: 7vw;
+        /* Reduz o tamanho do título */
+    }
+
+    .tamanho-img {
+        width: 30%;
+        /* Reduz o tamanho das imagens do título */
+    }
+
+    .container-feedback h5 {
+        font-size: 2vw;
+        padding: 2vw;
+    }
+
+    .caixa-feedback {
+        width: 35%;
+        height: 20%;
+        white-space: nowrap;
+      }
+    
+      .duvidas p {
+        font-size: 2vw;
+      }
+    
+      .text-footer{
+        font-size: 1vw;
+      }
+      .font-rodape h5{
+        font-size: 1.2vw;
+      }
+      
+      .icon.text-footer i{
+        font-size: 1.1vw;
+        color: #370028;
+      }
+
+      .final p{
+        font-size: 1.1vw;
+      }
+
+      .redes-sociais .bi {
+        font-size: 1.4vw;
+        color: #370028;
+      }
+
+      .redes-sociais .bi-facebook {
+        font-size: 2.5vw;
+        color: white;
+        position: relative;
+      }      
+      
+
+}
+
+@media screen and (max-width: 1659px) {
+
+    .caixa-feedback {
+        border: 1px solid #370028;
+        border-radius: 5px;
+        padding: 10px;
+        width: 40%;
+        height: 20%;
+        margin: 0 auto; /*Centraliza horizontalmente */
+        white-space: nowrap;
+      }
+      
+      .container-feedback{
+        text-align: center;
+        font-size: 4vw;
+        padding-top: 3%;
+      }
+      
+      .caixa {
+        width: 25%;
+      }
+
+}

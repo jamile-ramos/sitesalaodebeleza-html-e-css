@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Petals</title>
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <!--CSS do Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!--Boostrap Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!--Google Fontes Latos-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap" rel="stylesheet">
+
+  <!--O CSS do projeto (OBS: ESSE CSS TEM QUE FICAR POR ULTIMO, OU SEJA, APOS OS CSS DO BOTSTRAP PARA FUNCIONAR CORRETAMENTE)-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css"> <!--CSS responsivo-->
+
+  <!--Javascript do Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!--Barra de Localização-->
+  <div class="location-bar d-flex align-items-center justify-content-center text-center">
+    <div class="location-content col-md-7">
+      <i class="bi bi-geo-alt"></i>
+      <span class="location-name">Guanambi, BA</span>
+    </div>
+
+    <div class="group-icon">
+      <div class="icon">
+        <a href="#">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+      <div class="icon circle">
+        <a href="">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="icon circle">
+        <a href="#">
+          <i class="bi bi-envelope-check"></i>
+        </a>
+      </div>
+      <div class="icon circle">
+        <a href="#">
+          <i class="bi bi-telephone"></i>
+        </a>
+      </div>
+      <div class="icon circle">
+        <a href="#">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+   <!--NAVBAR (CABEÇALHO)-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo branca.png" class="img-fluid" alt="Beauty Petals">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item me-5">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="sobre nos.html" data-page="sobre nós">Sobre nós</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link active" href="Produtos.html">Produtos</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Serviços
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Tratamento capilar.html">Tratamento Capilar</a></li>
+              <li><a class="dropdown-item" href="Corte Feminino.html">Corte Feminino</a></li>
+              <li><a class="dropdown-item" href="Manicure e Pedicure.html">Manicure e Pedicure</a></li>
+              <li><a class="dropdown-item" href="Maquiagem.html">Maquiagem Profissional</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="search-form">
+              <form action="">
+                <input type="text" name="q" placeholder="Digite sua pesquisa">
+                <button type="submit"><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+          </li>
+          <li>
+            <div class="audio">
+              <i id="start-listening-btn" class="bi bi-mic-fill"></i>
+              <script src="botao de audio.js"></script>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pesquisar-audio"></div> <!--Ajusta o posicionamento dos elementos dessa div-->
+
+  </nav>
+
+
+  <!--BANNER-->
+  <img src="img/Banner Produtos.png" class="img-fluid banner" alt="Imagem responsiva">
+
+   <!-- ACESSIBILIDADE EM LIBRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <!--CONHEÇA NOSSOS PRODUTOS-->
+  <div class="fundo-servicos">
+    <div class="nossos_servicos">
+      <h5 class="caixa">CONHEÇA NOSSOS PRODUTOS</h5>
+      <img src="img/Divisao.png" class="img-fluid tamanho-img" alt="Imagem responsiva">
+    </div>
+  </div>
+  <div class="fundo-produtos-texto">
+    <p>
+      Descubra nossa linha completa de produtos para cabelos cacheados! Temos shampoo, condicionador e máscara para tratamento capilar , todos desenvolvidos para atender às necessidades específicas dos cachos. Venha conferir e escolher seu favorito !
+    </p>
+  </div>
+
+  <!--PREÇOS DOS PRODUTOS-->
+  
+  <div class="d-flex justify-content-center fundo-produtos">
+    <div class="card card-size">
+      <div class="card-body">
+        <div class="divisao-feedback product-size-img">
+          <img src="img/Produto 1.png" class="img-fluid" alt="Imagem responsiva">
+        </div>
+        <div class="name-product">
+          <h5>Shampoo Beauty Petals Respeito Por Cachos  250 ml</h5>
+        </div>
+        <div class="star-produto">
+          <img src="img/Star - Produto.svg" class="img-fluid" alt="Imagem responsiva">
+        </div>
+        <p class="text-desconto"><s>R$ 56,70 </s>(35% de desconto)</p>
+        <div class="price-product">
+          <h5>R$ 42,90</h5>
+        </div>
+        <div class="price-product">
+          <p>2x de R$ 21,45</h5>
+        </div>
+       <div class="botao-comprar">
+        <button type="submit">COMPRAR</button>
+       </div>
+      </div>
+    </div>
+
+    <div class="card card-size">
+      <div class="card-body">
+        <div class="divisao-feedback product-size-img">
+          <img src="img/Produto 2.png" class="img-fluid" alt="Imagem responsiva">
+        </div>
+
+        <div class="name-product">
+          <h5>Condicionador Beauty Petals Respeito Por Cachos  200ml</h5>
+        </div>
+        
+        <div class="star-produto">
+          <img src="img/Star - Produto.svg" class="img-fluid" alt="Imagem responsiva">
+        </div>
+        <p class="text-desconto"><s>R$ 37,90 </s>(31% de desconto)</p>
+
+        <div class="price-product">
+          <h5>R$ 25,90</h5>
+        </div>
+
+        <div class="price-product">
+          <p>2x de R$ 12,95</h5>
+        </div>
+
+       <div class="botao-comprar">
+        <button type="submit">COMPRAR</button>
+       </div>
+
+      </div>
+    </div>
+
+    <div class="card card-size">
+      <div class="card-body">
+        <div class="divisao-feedback product-size-img">
+          <img src="img/Produto 3.png" class="img-fluid" alt="Imagem responsiva">
+        </div>
+
+        <div class="name-product">
+          <h5>Máscara Capilar Beauty Petals Respeito Por Cachos  150ml</h5>
+        </div>
+        
+        <div class="star-produto">
+          <img src="img/Star - Produto.svg" class="img-fluid" alt="Imagem responsiva">
+        </div>
+        <p class="text-desconto"><s>R$ 29,90 </s>(10% de desconto)</p>
+
+        <div class="price-product">
+          <h5>R$ 19,90</h5>
+        </div>
+
+        <div class="price-product">
+          <p>2x de R$ 9,95</h5>
+        </div>
+
+       <div class="botao-comprar">
+        <button type="submit">COMPRAR</button>
+       </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    <!--RODAPÉ-->
+    <footer class="rodape row">
+      <div class="col mb-3">
+          <a href="#">
+              <img src="img/Logo branca.png" alt="Beaty Petals" class="img-fluid logo-rodape">
+          </a>
+
+          <div class="social-icons redes-sociais">
+              <div class="icon">
+                  <a href="#">
+                      <i class="bi bi-facebook"></i>
+                  </a>
+              </div>
+              <div class="icon circle">
+                  <a href="">
+                      <i class="bi bi-instagram"></i>
+                  </a>
+              </div>
+              <div class="icon circle">
+                  <a href="#">
+                      <i class="bi bi-envelope-check"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="col mb-3 font-rodape">
+          <h5>PAGAMENTO</h5>
+          <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                  <div>
+                      <img src="img/cartoes.png" class="cartao img-fluid" alt="">
+                  </div>
+              </li>
+          </ul>
+      </div>
+
+      <div class="col mb-3 font-rodape">
+          <h5>SEGURANÇA</h5>
+          <ul class="nav flex-column">
+              <img src="img/selos.png" class="cartao img-fluid" alt="">
+          </ul>
+      </div>
+
+      <hr>
+
+      <div class="final">
+          <p class="font-rodape">&copy; 2023 Beauty Petals | Todos os direitos reservados. Site desenvolvido por
+              Ana
+              Claudia, Érica Laiane, Jamile Ramos</p>
+      </div>
+
+  </footer>
+
+
+
+</body>
+
+</body>
+
+</html>

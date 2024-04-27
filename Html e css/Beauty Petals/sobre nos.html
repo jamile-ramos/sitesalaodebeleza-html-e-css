@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Petals</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!--CSS do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!--Boostrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--Google Fontes Latos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap" rel="stylesheet">
+
+    <!--O CSS do projeto (OBS: ESSE CSS TEM QUE FICAR POR ULTIMO, OU SEJA, APOS OS CSS DO BOTSTRAP PARA FUNCIONAR CORRETAMENTE)-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css"> <!--CSS responsivo-->
+
+    <!--Javascript do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <!--Barra de Localização-->
+    <div class="location-bar d-flex align-items-center justify-content-center text-center">
+        <div class="location-content col-md-7">
+            <i class="bi bi-geo-alt"></i>
+            <span class="location-name">Guanambi, BA</span>
+        </div>
+
+        <div class="group-icon">
+            <div class="icon">
+                <a href="#">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="#">
+                    <i class="bi bi-envelope-check"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="#">
+                    <i class="bi bi-telephone"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="#">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+  <!--NAVBAR (CABEÇALHO)-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo branca.png" class="img-fluid" alt="Beauty Petals">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item me-5">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link active" href="sobre nos.html" data-page="sobre nós">Sobre nós</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="Produtos.html">Produtos</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Serviços
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Tratamento capilar.html">Tratamento Capilar</a></li>
+              <li><a class="dropdown-item" href="Corte Feminino.html">Corte Feminino</a></li>
+              <li><a class="dropdown-item" href="Manicure e Pedicure.html">Manicure e Pedicure</a></li>
+              <li><a class="dropdown-item" href="Maquiagem.html">Maquiagem Profissional</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="search-form">
+              <form action="">
+                <input type="text" name="q" placeholder="Digite sua pesquisa">
+                <button type="submit"><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+          </li>
+          <li>
+            <div class="audio">
+              <i id="start-listening-btn" class="bi bi-mic-fill"></i>
+              <script src="botao de audio.js"></script>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pesquisar-audio">
+
+      </div>
+
+  </nav>
+
+
+    <!--BANNER-->
+    <img src="img/Banner - Inicial.jpg" class="img-fluid banner" alt="Imagem responsiva">
+
+    <!--QUEM SOMOS NÓS-->
+    <div class="fundo-servicos">
+        <div class="nossos_servicos">
+            <h5 class="caixa">QUEM SOMOS</h5>
+            <img src="img/Divisao.png" class="img-fluid tamanho-img" alt="Imagem responsiva">
+        </div>
+
+        <div class="container-sobre-nos">
+            <div class="sobre-nos-fundo">
+                <p>
+                    A Beauty Petals é uma fusão perfeita entre sofisticação e modernidade, trazendo consigo o talento de
+                    profissionais experientes e renomados do setor. Nosso salão foi meticulosamente planejado e projetado
+                    para
+                    oferecer uma experiência completa em serviços de beleza.
+                </p>
+                <p>
+                    Nosso principal objetivo é proporcionar uma experiência única e abrangente para nossos clientes,
+                    combinando
+                    qualidade e expertise com um ambiente acolhedor e elegante. Queremos que você se sinta especial e bem
+                    cuidado em cada visita.
+                </p>
+                <p>
+                    Contamos com uma equipe de profissionais altamente qualificados e atualizados com as últimas tendências
+                    e
+                    técnicas do mercado. Estamos prontos para atender suas necessidades e superar suas expectativas em
+                    relação
+                    aos serviços de beleza.
+                </p>
+    
+                <p>
+                    Oferecemos uma ampla gama de serviços, desde cortes até maquiagens deslumbrantes. Nossos profissionais
+                    estão
+                    preparados para personalizar cada serviço de acordo com suas preferências individuais, garantindo
+                    resultados
+                    excepcionais.
+    
+                </p>
+    
+                <p>
+                    Além disso, valorizamos a qualidade dos produtos que utilizamos em nossos serviços. Trabalhamos com
+                    marcas
+                    reconhecidas e confiáveis, para garantir os melhores resultados e cuidados para o seu cabelo e pele.
+                </p>
+    
+                <p>    
+                    No Beauty Petals, cada cliente é tratado com a máxima atenção e cuidado. Nosso objetivo é que você se
+                    sinta
+                    completamente satisfeito e revigorado após cada visita. Queremos que você saia do nosso salão
+                    sentindo-se
+                    confiante e radiante, pronto para enfrentar o mundo com uma nova dose de autoestima.
+    
+                </p>
+    
+                <p>
+                    Estamos ansiosos para recebê-lo em nosso salão e cuidar da sua beleza e bem-estar. Entre em contato
+                    conosco
+                    e agende um horário. Conte com a Beauty Petals para proporcionar a você uma experiência de beleza
+                    excepcional, com toda a atenção e cuidado que você merece.
+                </p>
+    
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-pink"></div>
+
+
+  <!--RODAPÉ-->
+  <footer class="rodape row">
+    <div class="col mb-3">
+      <a href="#">
+        <img src="img/Logo branca.png" alt="Beaty Petals" class="img-fluid logo-rodape">
+      </a>
+      
+      <div class="social-icons redes-sociais">
+        <div class="icon">
+          <a href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </div>
+        <div class="icon circle">
+          <a href="">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+        <div class="icon circle">
+          <a href="#">
+            <i class="bi bi-envelope-check"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3 font-rodape">
+      <h5>Contato</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">  
+          <div class="icon circle text-footer">
+              <i class="bi bi-whatsapp"></i> (77) 99999 - 9999
+          </div>
+      </li>
+      </ul>
+    </div>
+
+    <div class="col mb-3 font-rodape">
+      <h5>Horário de Funcionamento</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2 text-footer">Seg. a Sex. das 8h às 20h</li>
+        <li class="nav-item mb-2 text-footer">Sábado - das 9h às 19h</li>
+      </ul>
+    </div>
+
+    <div class="col mb-3 font-rodape">
+      <h5>Localização</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2 text-footer">R. xxxxxxxxxxxxxxxxx</li>
+        <li class="nav-item mb-2 text-footer">Praça do Feijão</li>
+        <li class="nav-item mb-2 text-footer">Guanambi - Ba</li>
+      </ul>
+    </div>
+    <hr>
+
+    <div class="final">
+      <p class="font-rodape">&copy; 2023 Beauty Petals | Todos os direitos reservados. Site desenvolvido por Ana Claudia, Érica Laiane, Jamile Ramos</p>  
+    </div>
+
+  </footer>
+
+  <!-- ACESSIBILIDADE EM LIBRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+
+</html>

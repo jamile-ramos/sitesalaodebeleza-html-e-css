@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Petals</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!--CSS do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!--Boostrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--Google Fontes Latos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap" rel="stylesheet">
+
+    <!--O CSS do projeto (OBS: ESSE CSS TEM QUE FICAR POR ULTIMO, OU SEJA, APOS OS CSS DO BOTSTRAP PARA FUNCIONAR CORRETAMENTE)-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css"> <!--CSS responsivo-->
+
+    <!--Javascript do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!--Barra de Localização-->
+    <div class="location-bar d-flex align-items-center justify-content-center text-center">
+        <div class="location-content col-md-7">
+            <i class="bi bi-geo-alt"></i>
+            <span class="location-name">Guanambi, BA</span>
+        </div>
+
+        <div class="group-icon">
+            <div class="icon">
+                <a href="#">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="#">
+                    <i class="bi bi-envelope-check"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="#">
+                    <i class="bi bi-telephone"></i>
+                </a>
+            </div>
+            <div class="icon circle">
+                <a href="#">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+   <!--NAVBAR (CABEÇALHO)-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo branca.png" class="img-fluid" alt="Beauty Petals">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item me-5">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="sobre nos.html" data-page="sobre nós">Sobre nós</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="Produtos.html">Produtos</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Serviços
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Tratamento capilar.html">Tratamento Capilar</a></li>
+              <li><a class="dropdown-item" href="Corte Feminino.html">Corte Feminino</a></li>
+              <li><a class="dropdown-item" href="Manicure e Pedicure.html">Manicure e Pedicure</a></li>
+              <li><a class="dropdown-item" href="Maquiagem.html">Maquiagem Profissional</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="search-form">
+              <form action="">
+                <input type="text" name="q" placeholder="Digite sua pesquisa">
+                <button type="submit"><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+          </li>
+          <li>
+            <div class="audio">
+              <i id="start-listening-btn" class="bi bi-mic-fill"></i>
+              <script src="botao de audio.js"></script>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pesquisar-audio"></div> <!--Ajusta o posicionamento dos elementos dessa div-->
+
+  </nav>
+
+
+    <!--BANNER-->
+    <img src="img/Banner Maquiagem.png" class="img-fluid banner" alt="Imagem responsiva">
+
+    <!--TÍTULO TRATAMENTO CAPILAR-->
+    <div class="fundo-servicos">
+        <div class="nossos_servicos">
+            <h5 class="caixa">MAQUIAGEM PROFISSIONAL</h5>
+            <img src="img/Divisao.png" class="img-fluid tamanho-img" alt="Imagem responsiva">
+        </div>
+
+        <div class="container-tratamento-capilar">
+            <div class="text-tratamento-capilar">
+                <p>
+                    Manicure e pedicure são serviços essenciais para cuidar das suas unhas e garantir mãos e pés sempre
+                    bonitos e bem cuidados.
+                </p>
+                <p>
+                    Na Beauty Petals, oferecemos serviços profissionais de maquiagem para diversas ocasiões.
+                </p>
+                <p>
+
+                    Nossa equipe de maquiadores é experiente e está sempre atualizada com as últimas tendências e
+                    técnicas.
+
+                </p>
+                <p>
+                    Venha até a Beauty Petals e descubra como a maquiagem pode ser uma aliada poderosa na expressão da
+                    sua individualidade e beleza.
+                </p>
+            </div>
+            <div>
+                <img src="img/Maquiagem ex1.png" class="img-tratamentoEx1" alt="Tratamento Capilar">
+            </div>
+        </div>
+        
+    <!--BOTÃO DE AGENDAR-->
+    <div class="fundo-servicos">
+        <div class="button-agendar">
+            <button type="submit" onclick="alert('Você será direcionada para o whatsapp para marcar seu horário!')">
+                AGENDE JÁ SEU HORÁRIO
+            </button>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!--TIPOS DE MAQUIAGEM PROFISSIONAL-->
+    <div class="fundo-topicos-tratamento ">
+
+        <div class="inicio-topico">
+            <p>TEMOS MAQUIAGENS PARA DIVERSAS OCASIÕES</p>
+        </div>
+
+
+        <!--EXEMPLO 1 MAKE-->
+        <div class="container-tratamento-capilar">
+
+            <div class="circle-service-maquiagem">
+                <img src="img/make ex1.png" class="img-tratamentoEx1" alt="Tratamento Capilar">
+            </div>
+            <div class="text-alongamento">
+                <p><b>
+                    Maquiagem para eventos especiais:
+                </b></p>
+                <p>
+                    Seja um casamento, formatura, festa ou qualquer outra ocasião especial, nossa equipe irá criar um
+                    look personalizado que combina com seu estilo e realça sua beleza natural.
+                </p>
+            </div>
+
+        </div>
+
+        <!--EXEMPLO 2 MAKE-->
+        <div class="container-tratamento-capilar">
+
+            <div class="text-alongamento">
+                <p><b>
+                    Maquiagem social:
+                </b></p>
+                <p>
+                    Para aqueles momentos em que você deseja se sentir confiante e glamorosa, nossos maquiadores irão
+                    criar uma maquiagem impecável, destacando seus olhos, realçando suas maçãs do rosto e deixando seus
+                    lábios deslumbrantes.
+                </p>
+            </div>
+
+            <div class="circle-service-maquiagem">
+                <img src="img/make ex2.png" class="img-tratamentoEx1" alt="Tratamento Capilar">
+            </div>
+        </div>
+
+        <!--EXEMPLO 3 MAKE-->
+        <div class="container-tratamento-capilar">
+
+            <div class="circle-service-maquiagem">
+                <img src="img/make ex3.png" class="img-tratamentoEx1" alt="Tratamento Capilar">
+            </div>
+            <div class="text-alongamento">
+                <p><b>
+                        Maquiagem para fotos e ensaios:
+                    </b></p>
+                <p>
+                    Se você está planejando uma sessão de fotos ou um ensaio, nossa equipe sabe exatamente como criar
+                    uma maquiagem que ficará perfeita nas imagens, realçando sua aparência e garantindo que você esteja
+                    deslumbrante.
+                </p>
+            </div>
+        </div>
+
+        <!--EXEMPLO 4 MAKE-->
+        <div class="container-tratamento-capilar">
+
+            <div class="text-alongamento">
+                <p><b>
+                        Maquiagem Artísitica:
+                </b></p>
+                <p>
+                    Nossos maquiadores especializados em maquiagem artística estão prontos para transformar você em uma
+                    verdadeira obra de arte. Cada detalhe é cuidadosamente trabalhado para criar uma maquiagem impecável
+                    que combine perfeitamente com seu estilo e personalidade.
+                </p>
+            </div>
+
+            <div class="circle-service-maquiagem">
+                <img src="img/make ex4.png" class="img-tratamentoEx1" alt="Tratamento Capilar">
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--BOTÃO DE AGENDAR-->
+    <div class="fundo-servicos">
+        <div class="button-agendar">
+            <button type="submit" onclick="alert('Você será direcionada para o whatsapp para marcar seu horário!')">
+                AGENDE JÁ SEU HORÁRIO
+            </button>
+        </div>
+    </div>
+
+    <!--RODAPÉ-->
+    <footer class="rodape row">
+        <div class="col mb-3">
+            <a href="#">
+                <img src="img/Logo branca.png" alt="Beaty Petals" class="img-fluid logo-rodape">
+            </a>
+
+            <div class="social-icons redes-sociais">
+                <div class="icon">
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+                <div class="icon circle">
+                    <a href="">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div class="icon circle">
+                    <a href="#">
+                        <i class="bi bi-envelope-check"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3 font-rodape">
+            <h5>Contato</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <div class="icon circle text-footer">
+                        <i class="bi bi-whatsapp"></i> (77) 99999 - 9999
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col mb-3 font-rodape">
+            <h5>Horário de Funcionamento</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2 text-footer">Seg. a Sex. das 8h às 20h</li>
+                <li class="nav-item mb-2 text-footer">Sábado - das 9h às 19h</li>
+            </ul>
+        </div>
+
+        <div class="col mb-3 font-rodape">
+            <h5>Localização</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2 text-footer">R. xxxxxxxxxxxxxxxxx</li>
+                <li class="nav-item mb-2 text-footer">Praça do Feijão</li>
+                <li class="nav-item mb-2 text-footer">Guanambi - Ba</li>
+            </ul>
+        </div>
+        <hr>
+
+        <div class="final">
+            <p class="font-rodape">&copy; 2023 Beauty Petals | Todos os direitos reservados. Site desenvolvido por
+                Ana
+                Claudia, Érica Laiane, Jamile Ramos</p>
+        </div>
+
+    </footer>
+
+    <!-- ACESSIBILIDADE EM LIBRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+</body>
+
+</html>
