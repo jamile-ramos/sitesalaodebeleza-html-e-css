@@ -19,6 +19,7 @@
 
     // Trate possíveis erros
     recognition.onerror = function (event) {
+      console.error('Erro no reconhecimento de fala:', event.error);
     };
 
     // Evento para iniciar o reconhecimento de fala quando o botão for clicado
